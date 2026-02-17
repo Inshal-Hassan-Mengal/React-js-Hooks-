@@ -39,23 +39,24 @@
 
 
 
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 
-function Example() {
-  const [count, setCount] = useState(0);
+// function Example() {
+//   const [count, setCount] = useState(0);
 
-  useEffect(() => {
-    console.log("Count changed!");
-  }, [count]);
+//   useEffect(() => {
+//     console.log("Count changed!");
+//   }, [count]);
 
-  return (
-    <button onClick={() => setCount(count + 1)}>
-      Click Me
-    </button>
-  );
-}
-
-
+//   return (
+//     <button onClick={() => setCount(count + 1)}>
+//       Click Me
+//     </button>
+//   );
+// }
 
 
 
+
+
+// const [name, setName] = useState("Ali");
