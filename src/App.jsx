@@ -36,3 +36,26 @@
 // }
 
 // export default App;
+
+
+
+import { useState, useEffect } from "react";
+
+function Example() {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    console.log("Count changed!");
+  }, [count]);
+
+  return (
+    <button onClick={() => setCount(count + 1)}>
+      Click Me
+    </button>
+  );
+}
+
+
+
+
+
